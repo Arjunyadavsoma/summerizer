@@ -1,3 +1,9 @@
+# Upgrade pip to the latest version
+RUN pip install --upgrade pip
+
+# Install the necessary Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
 # Use an official Python runtime as a parent image
 FROM python:3.11-slim
 
