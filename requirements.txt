@@ -1,6 +1,6 @@
 streamlit==1.19.0
 easyocr==1.6.2
 groq
+numpy==1.24.0
 pdf2image==1.16.0
 python-docx==0.8.11
-
