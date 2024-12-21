@@ -1,8 +1,7 @@
-streamlit==1.19.0
-easyocr==1.6.2
+streamlit==1.24.1
+pandas>2.0
+numpy<=1.25.1
+easyocr
 groq
-numpy==1.24.0
-pdf2image==1.16.0
-numpy>=1.25.0
-
-python-docx==0.8.11
+python-docx
+pdf2image
